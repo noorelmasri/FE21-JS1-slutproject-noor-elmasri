@@ -1,0 +1,28 @@
+body {
+  background-color: #6e80e1;
+  color: aliceblue;
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#idag {
+  flex-direction: column;
+  font-size: larger;
+  text-align: center;
+}
+#idag img {
+  width: 300px;
+  align-self: center;
+}
+#femDagar div {
+  box-shadow: 0px 0px 5px #fff;
+  width: 100%;
+  font-size: large;
+}
+#femDagar img {
+  width: 50px;
+}
